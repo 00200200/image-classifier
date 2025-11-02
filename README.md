@@ -23,27 +23,29 @@ Dataset used: [Simple hand-drawn and digitized images](https://www.kaggle.com/da
    uv sync
    ```
 
-2. **Split Dataset** 
-    ```bash
-    uv run python -m src.preprocess.preprocess
-    ```
+2. **Split Dataset**
+
+   ```bash
+   uv run python -m src.preprocess.preprocess
+   ```
 
 3. **Train model:**
+
    ```bash
    uv run python -m src.scripts.train
    ```
 
 4. **Check the results:**
 
-    ```bash
-    uv run python -m src.scripts.evaluate
-    ```
+   ```bash
+   uv run python -m src.scripts.evaluate
+   ```
 
- 5. **Run the Gradio demo:**
+5. **Run the Gradio demo:**
 
-    ```bash
-    uv run python -m src.app.app
-    ```
+   ```bash
+   uv run python -m src.app.app
+   ```
 
 ## Results
 
@@ -54,7 +56,7 @@ Dataset used: [Simple hand-drawn and digitized images](https://www.kaggle.com/da
 ```
 image-classifier/
 ├── src/
-│   ├── model/       # ResNet50 
+│   ├── model/       # ResNet50
 │   ├── data/        # DataModule for loading images
 │   ├── preprocess/  # Script to split dataset
 │   ├── scripts/     # train.py and evaluate.py
@@ -65,7 +67,6 @@ image-classifier/
 ├── notebooks/       # EDA notebook
 └── lightning_logs/  # Training checkpoints
 ```
-
 
 ## Tech stack
 

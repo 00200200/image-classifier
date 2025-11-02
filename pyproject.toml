@@ -13,4 +13,5 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
     "lightning>=2.5.5",
+    "grad-cam>=1.5.5",
 ]

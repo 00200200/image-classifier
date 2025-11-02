@@ -1,0 +1,16 @@
+[project]
+name = "image-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.9.0",
+    "torchvision>=0.24.0",
+    "ipykernel>=6.29.0",
+    "matplotlib>=3.10.7",
+    "gradio>=5.49.1",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "lightning>=2.5.5",
+]

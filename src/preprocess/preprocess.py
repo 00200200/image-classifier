@@ -1,6 +1,6 @@
 import random
-from pathlib import Path
 import shutil
+from pathlib import Path
 
 
 def split_dataset(src="data/raw", dst="data/processed", train=0.7, val=0.15, seed=42):
@@ -34,6 +34,7 @@ def split_dataset(src="data/raw", dst="data/processed", train=0.7, val=0.15, see
 
             for img_path in imgs:
                 shutil.copy(img_path, out_dir / img_path.name)
+
 
 if __name__ == "__main__":
     split_dataset()

@@ -1,8 +1,9 @@
 # Hand-drawn Image Classifier
 
-![GradioInterf](assets/docs/gradio_ui.png)
+![GradioInterf](assets/docs/gradio_ui_with_gradCam.png)
 
-A simple image classifier for hand-drawn symbols. Uses ResNet50 with transfer learning to classify 10 different categories.
+A simple image classifier for hand-drawn symbols.
+ResNet50 with transfer learning to classify 10 different categories.
 
 Dataset used: [Simple hand-drawn and digitized images](https://www.kaggle.com/datasets/gergvincze/simple-hand-drawn-and-digitized-images/data)
 
@@ -74,3 +75,4 @@ image-classifier/
 - ResNet50 pretrained on ImageNet
 - Gradio for the demo interface
 - uv for package management
+- [Grad-Cam](https://gitlab.db.in.tum.de/anamlacatusu/reid-or/-/blob/main/pytorch_grad_cam/README.md)
